@@ -1,0 +1,24 @@
+{
+  "name": "vc-redist-16-x64",
+  "version": "1.0.3",
+  "description": "Visual C++ 2015-2019 Redistributable (x64)",
+  "bin": "index.js",
+  "scripts": {
+    "postinstall": "vc-redist-16-x64",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.0",
+    "tmp": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.11.1",
+    "@types/request": "^2.48.3",
+    "@types/tmp": "^0.1.0"
+  },
+  "os": ["win32"],
+  "cpu": ["x64"]
+}

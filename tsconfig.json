@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "strictNullChecks": true,
+        "alwaysStrict": true,
+        "noImplicitThis": true,
+        "noImplicitAny": true,
+        "sourceMap": true
+    }
+}
